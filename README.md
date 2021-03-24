@@ -11,5 +11,9 @@ But when i tried to load other model, a had runtime error in <br>
 like next:<br>
 **RuntimeError: Parameter 'resnetv15_batchnorm0_running_mean' has not been initialized...**<br>
 After some experiments i found solution. Look at **ONNX_tuning.ipynb**<br>
+Before using this notebook download onnx file from:<br>
+https://github.com/onnx/models/tree/master/vision/classification/resnet/model
 
-## 2. Import models from storing checkpoint
+## 2. Import models from saved checkpoint
+It's like previous task, but source model loading from saved checkpoint.<b>
+Look my code in **pretrained_tuning.ipynb**
