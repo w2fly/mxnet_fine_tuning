@@ -15,5 +15,5 @@ Before using this notebook download onnx file from:<br>
 https://github.com/onnx/models/tree/master/vision/classification/resnet/model
 
 ## 2. Import models from saved checkpoint
-It's like previous task, but source model loading from saved checkpoint.<b>
+It's like previous task, but source model loading from saved checkpoint.<br>
 Look my code in **pretrained_tuning.ipynb**
